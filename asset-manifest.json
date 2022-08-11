@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/transportAPP/static/css/main.d32c9ccf.css",
+    "main.js": "/transportAPP/static/js/main.365aa1d7.js",
+    "static/js/787.28cb0dcd.chunk.js": "/transportAPP/static/js/787.28cb0dcd.chunk.js",
+    "static/media/primeicons.svg": "/transportAPP/static/media/primeicons.c6e2053303524e39530c.svg",
+    "static/media/primeicons.eot": "/transportAPP/static/media/primeicons.7fc4d8e224d1ff1b9c62.eot",
+    "static/media/primeicons.woff": "/transportAPP/static/media/primeicons.449aa8c65cdc5c2a8686.woff",
+    "static/media/primeicons.ttf": "/transportAPP/static/media/primeicons.91bacab1f083f2795272.ttf",
+    "index.html": "/transportAPP/index.html",
+    "main.d32c9ccf.css.map": "/transportAPP/static/css/main.d32c9ccf.css.map",
+    "main.365aa1d7.js.map": "/transportAPP/static/js/main.365aa1d7.js.map",
+    "787.28cb0dcd.chunk.js.map": "/transportAPP/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d32c9ccf.css",
+    "static/js/main.365aa1d7.js"
+  ]
+}
