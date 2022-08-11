@@ -1,5 +1,5 @@
 Модуль отображения заявок на перевозку.
-![hall](https://github.com/Mayariff/transportApp/blob/master/src/giv/Gif.gif)
+![hall](https://github.com/Mayariff/transportApp/blob/master/src/gif/Gif.gif)
 
 Описание:
 Слева таблица со списком заявок, справа -карта. 
