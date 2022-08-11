@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Mayariff.github.io/transportAPP",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.14.1",
@@ -14,6 +15,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "antd": "^4.22.3",
+    "gh-pages": "^4.0.0",
     "leaflet": "^1.8.0",
     "leaflet-routing-machine": "^3.2.12",
     "primeicons": "^5.0.0",
@@ -32,7 +34,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
