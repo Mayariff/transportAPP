@@ -6,6 +6,7 @@ import {edditableSpanType} from "../types";
 import {displaySelectOptions} from "../../../utils/utils-application-table";
 import {selectPointsInfo} from "../../../Redux/selectors";
 import {useAppSelector} from "../../../utils/redux-utils";
+import 'antd/dist/antd.min.css';
 
 const {Option} = Select;
 

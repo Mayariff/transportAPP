@@ -1,6 +1,7 @@
 import React, {useCallback, useState} from 'react';
 import {Form, Table} from "antd";
-import 'antd/dist/antd.css';
+//import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 import {changePointAC, selectApplicationAC} from "../../Redux/ApplicationTableReducer/ApplicationsTableReducer";
 import {display_data} from "../../utils/utils-application-table";
 import {tableDataType} from "./types";

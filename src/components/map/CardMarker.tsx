@@ -1,4 +1,3 @@
-import {addressType} from "../../Data/Data";
 import {Marker, Popup} from "react-leaflet";
 import React from "react";
 import {markerType} from "./types";

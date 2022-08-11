@@ -6,6 +6,8 @@ import {Splitter, SplitterPanel} from 'primereact/splitter';
 import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
+//import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 import {initializedApp} from "../Redux/AppReducer/App-sagas";
 import {useDispatch} from "react-redux";
 import {fetchApplications} from "../Redux/ApplicationTableReducer/ApplicationTable-sagas";
