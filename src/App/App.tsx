@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import Map from "../components/map/Map";
-import ApplicationTable from "../components/applicationTable/ ApplicationTable";
+import ApplicationTable from "../components/applicationTable/ApplicationTable";
 import s from './App.module.css'
 import {Splitter, SplitterPanel} from 'primereact/splitter';
 import "primereact/resources/themes/lara-light-indigo/theme.css";

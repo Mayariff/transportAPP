@@ -11,7 +11,7 @@ import 'antd/dist/antd.min.css';
 const {Option} = Select;
 
 
-const EdditableSpan = ({point, is_loadingPoint, item}: edditableSpanType) => {
+const EdditableSpan = React.memo(({point, is_loadingPoint, item}: edditableSpanType) => {
 
     const selectingMenuPoints = useAppSelector(selectPointsInfo)
     const options = displaySelectOptions(selectingMenuPoints, is_loadingPoint)
@@ -44,6 +44,6 @@ const EdditableSpan = ({point, is_loadingPoint, item}: edditableSpanType) => {
             }
         </Form.Item>
     );
-};
+});
 
 export default EdditableSpan;

@@ -3,7 +3,7 @@ import React from "react";
 import {markerType} from "./types";
 
 
-const CardMarker = ({point}: markerType) => {
+const CardMarker = React.memo(({point}: markerType) => {
     return (
         <Marker position={point.coords}>
             <Popup>
@@ -13,6 +13,6 @@ const CardMarker = ({point}: markerType) => {
             </Popup>
         </Marker>
     )
-}
+})
 
 export default CardMarker;

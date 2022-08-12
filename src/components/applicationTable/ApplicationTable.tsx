@@ -29,13 +29,13 @@ const ApplicationTable = () => {
 
     // обработчик при выборе строки
     const rowSelection = {
-        onSelect: (record: tableDataType, selected: boolean, selectedRows: tableDataType[], nativeEvent: Event) => {
+        onSelect: useCallback((record: tableDataType, selected: boolean, selectedRows: tableDataType[], nativeEvent: Event) => {
             dispatch(selectApplicationAC({id: record.id}))
-        },
+        }, [dispatch]),
     };
 
 
-    const onChangeHandler = (data: { [key: string]: string }) => {
+    const onChangeHandler = useCallback((data: { [key: string]: string }) => {
         //достаем из изменившегося селектора id  заявки
         const id_application = Object.keys(data)[0].split('_')[0]
         //достаем название выбранного option
@@ -46,7 +46,7 @@ const ApplicationTable = () => {
         const is_loadingPoint = selectingMenuPoints[newPoint].is_loadingPoint
 
         dispatch(changePointAC({id: id_application, is_loadingPoint: is_loadingPoint, newPoint}))
-    }
+    }, [data])
 
     return (
         <Form onValuesChange={onChangeHandler}
